@@ -6,7 +6,7 @@ body{
 .midashi{
     background-color: rgb(197, 249, 249);
     background-size:cover;
-    background-image:url(C:\Users\giant\OneDrive\ドキュメント\デスクトップ\TOPS\全体集合写真.jpg);
+    background-image:url(全体集合写真.jpg);
     height: 100vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
     /*animation*/
