@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+body{
+    background-color: antiquewhite;
+}
+.midashi{
+    background-color: rgb(197, 249, 249);
+    background-size:cover;
+    background-image:url(C:\Users\giant\OneDrive\ドキュメント\デスクトップ\TOPS\全体集合写真.jpg);
+    height: 100vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    /*animation*/
+    background-blend-mode:multiply;
+    display: block;
+}
+.titlebox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+p.message{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 15px;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(300px,1fr)
+    );
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+.messagebox{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 60px 1fr;
+    vertical-align: top;
+    background-image: linear-gradient(215deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));
+    clip-path: inset(0px round 25px 0);
+}
+.messagebox1{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 60px 1fr;
+    vertical-align: top;
+    background-image: linear-gradient(35deg, rgba(144, 245, 154, 1), rgba(4, 202, 255, 1));
+    clip-path: inset(0px round 25px 0);
+}
+.messagebox2{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 60px 1fr;
+    vertical-align: top;
+    background-image: linear-gradient(35deg, rgba(244, 95, 191, 1), rgba(143, 210, 245, 1));
+    clip-path: inset(0px round 25px 0);
+}
+.messagebox3{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 60px 1fr;
+    vertical-align: top;
+    background-image: linear-gradient(196deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));
+    clip-path: inset(0px round 25px 0);
+}
+main{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: auto;
+}
+.name{
+    grid-column-start: 2;
+    grid-column-end: auto;
+    grid-row-start: 1;
+    grid-row-end: auto;
+    margin-left: 30px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin-top: 7px;
+}
+aside{
+    grid-column-start: 1;
+    grid-column-end: auto;
+    grid-row-start: 1;
+    grid-row-end: auto;
+}
+.portrait{
+    object-fit: cover;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+    clip-path: inset(0px round 10px 10px)
+
+}
+.photo{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-image: url(C:\Users\giant\OneDrive\ドキュメント\デスクトップ\TOPS\kokki.avif);
+    background-image: linear-gradient(35deg, rgba(247, 166, 12, 1) 4%, rgba(255, 34, 87, 1) 24%, rgba(154, 39, 238, 1) 68%, rgba(35, 102, 247, 1));
+    margin: 25px;
+    width: 100vw;
+    height: 150px;
+}
+h2{
+    font-size: 60px;
+    font-family: 'Libre Baskerville', serif;
+    margin: 25px;
+    color: antiquewhite;
+}
