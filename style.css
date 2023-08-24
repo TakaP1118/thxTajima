@@ -22,6 +22,7 @@ body{
 h1{
     font-family: 'Source Sans 3', sans-serif;
     width: 700px;
+    font-size:120px
     text-align: center;
     color: antiquewhite;
 }
@@ -122,6 +123,7 @@ img{
 }
 h2{
     width: 90wh;
+    font-size:60px;
     font-family: 'Libre Baskerville', serif;
     margin-top: 5%;
     margin-bottom: 5%;    
