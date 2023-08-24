@@ -8,7 +8,7 @@ body{
     background-size:cover;
     background-image:url(全体集合写真.jpg);
     height: 100vh;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     /*animation*/
     background-blend-mode:multiply;
     display: block;
@@ -21,7 +21,7 @@ body{
 }
 h1{
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 150px;
+    width: 700px;
     text-align: center;
     color: antiquewhite;
 }
@@ -121,8 +121,9 @@ img{
     height: 150px;
 }
 h2{
-    font-size: 60px;
+    width: 90wh;
     font-family: 'Libre Baskerville', serif;
-    margin: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;    
     color: antiquewhite;
 }
