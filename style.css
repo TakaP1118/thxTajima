@@ -22,7 +22,7 @@ body{
 h1{
     font-family: 'Source Sans 3', sans-serif;
     width: 700px;
-    font-size:120px;
+    font-size:108px;
     text-align: center;
     color: antiquewhite;
 }
@@ -115,11 +115,9 @@ img{
 }
 .footer{
     text-align: center;
-    background-image: url(C:\Users\giant\OneDrive\ドキュメント\デスクトップ\TOPS\kokki.avif);
     background-image: linear-gradient(35deg, rgba(247, 166, 12, 1) 4%, rgba(255, 34, 87, 1) 24%, rgba(154, 39, 238, 1) 68%, rgba(35, 102, 247, 1));
     margin: 25px;
     width: 100vw;
-    height: 150px;
 }
 h2{
     width: 90wh;
